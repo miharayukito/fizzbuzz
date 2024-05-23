@@ -1,4 +1,4 @@
-def fizzbuzz(number)
+(1..100).each do |number|
     if number % 3 == 0 && number % 5 == 0
         puts "FizzBuzz"
     elsif number % 3 == 0
@@ -9,5 +9,3 @@ def fizzbuzz(number)
         puts number
     end
 end
-
-fizzbuzz(26)
